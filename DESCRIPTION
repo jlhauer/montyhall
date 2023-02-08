@@ -1,0 +1,14 @@
+Package: montyhall
+Title: Virtual Monty Hall Game with Simulation
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jessica", "Hauer", , "Jessica.Hauer@ASU.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package creates a simulation to examine the effectiveness of different strategies in the Monty Hall game show, where a contestant tries to select a winning door with a car behind it and avoid selecting the loser doors with a goat behind it. The strategy in the game is whether a contestant should stay or switch after the host reveals one of the losing doors. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+   dplyr
